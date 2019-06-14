@@ -194,18 +194,24 @@ public class ReflectAbility : MonoBehaviour, IAbility {
                         // If Two Reflects Hit Eachother
                         else if (reflectHits.transform.gameObject.tag == "Player" && reflectHits.transform.gameObject != player && !playersReflected.Contains(reflectHits.transform.gameObject) && angle < reflectHitAngle && reflectHits.transform.gameObject.GetComponent<PlayerStates>().IsState(PlayerStates.PossibleStates.IsReflecting)) {
                             
-                            // TODO - Adda Reflect On Reflect VFX Here
-
                             playersReflected.Add(reflectHits.transform.gameObject);
+
+                            Vector3 positionBetweenPlayers = (reflectHits.transform.gameObject.transform.position + transform.position) / 2;
 
                             Vector3 dirFromEnemyToPlayer = (transform.position - reflectHits.transform.gameObject.transform.root.gameObject.transform.position).normalized;
 
                             Vector3 dirFromPlayerToEnemy = (reflectHits.transform.gameObject.transform.root.gameObject.transform.position - transform.position).normalized;
 
+                            // Calls Player Hit on enemy
                             reflectHits.transform.gameObject.GetComponent<PlayerHit>().OnPlayerHit(new Vector3(dirFromPlayerToEnemy.x, reflectKnockbackY, dirFromPlayerToEnemy.z), reflectOnReflectKnockback, reflectDamage, 0.1f, 0.05f, PlayerHit.HitBy.Reflect);
 
+                            // Calls Player Hit on self
                             player.GetComponent<PlayerHit>().OnPlayerHit(new Vector3(dirFromEnemyToPlayer.x, reflectKnockbackY, dirFromEnemyToPlayer.z), reflectOnReflectKnockback, reflectDamage, 0.1f, 0.05f, PlayerHit.HitBy.Reflect);
+                            
+                            // Spawns Sparks at reflect on reflect point
+                            GameObject projectileReflectedFXTemp = Instantiate(projectileReflectedVFX, positionBetweenPlayers, Quaternion.identity) as GameObject;
 
+                            // Slows Down time a bit
                             timeManager.SlowDownTime(reflectOnReflectSlowDownTimeScale, reflectOnReflectSlowDownDuration);
                         }
 
