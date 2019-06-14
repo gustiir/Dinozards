@@ -11,6 +11,9 @@ public class DashAbility : MonoBehaviour, IAbility {
     [SerializeField]
     private bool drawDebugDashTargetAndHitRadius = true;
 
+    [SerializeField]
+    private bool useJoystickCancelDash = false;
+
     public int manaCost = 1;
 
     public float dashDamage = 5;
@@ -170,23 +173,26 @@ public class DashAbility : MonoBehaviour, IAbility {
             // If Still Dashing then lerps the player
             if (playerState.IsState(PlayerStates.PossibleStates.IsDashing)) {
 
-                // If players Move Left stick to much to another direction from where they started the dash then cancels it
-                if (playerMovement.horizontalAxis >= initialDashHorizontalAxis + dashMoveCancelTreshHold || playerMovement.horizontalAxis <= initialDashHorizontalAxis - dashMoveCancelTreshHold) {
-                    
-                    playerState.SetStateTo(PlayerStates.PossibleStates.IsNormal);
-                    StopDash();
-                    yield break;
+                if (useJoystickCancelDash) {
+
+                    // If players Move Left stick to much to another direction from where they started the dash then cancels it
+                    if (playerMovement.horizontalAxis >= initialDashHorizontalAxis + dashMoveCancelTreshHold || playerMovement.horizontalAxis <= initialDashHorizontalAxis - dashMoveCancelTreshHold) {
+
+                        playerState.SetStateTo(PlayerStates.PossibleStates.IsNormal);
+                        StopDash();
+                        yield break;
+                    }
+
+
+                    // If players Move Left stick to much to another direction from where they started the dash then cancels it
+                    else if (playerMovement.verticalAxis >= initialDashVerticalAxis + dashMoveCancelTreshHold || playerMovement.verticalAxis <= initialDashVerticalAxis - dashMoveCancelTreshHold) {
+
+                        playerState.SetStateTo(PlayerStates.PossibleStates.IsNormal);
+                        StopDash();
+                        yield break;
+                    }
                 }
-
-
-                // If players Move Left stick to much to another direction from where they started the dash then cancels it
-                else if (playerMovement.verticalAxis >= initialDashVerticalAxis + dashMoveCancelTreshHold || playerMovement.verticalAxis <= initialDashVerticalAxis - dashMoveCancelTreshHold) {
-                    
-                    playerState.SetStateTo(PlayerStates.PossibleStates.IsNormal);
-                    StopDash();
-                    yield break;
-                }
-
+                
                 // Lerps the player toward from start locaation to dash location, casting for hits along the way. 
                 player.transform.position = Vector3.Lerp(dashStartLocation, dashTargetLocation, dashSpeedCurve.Evaluate(dashCounter));
                 
