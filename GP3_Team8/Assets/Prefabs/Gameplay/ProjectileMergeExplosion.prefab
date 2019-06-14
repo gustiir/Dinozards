@@ -61,6 +61,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3934083231348660972}
     m_Modifications:
+    - target: {fileID: 5262455841930416178, guid: 8796334d699984f43b46b2f89d8a7e76,
+        type: 3}
+      propertyPath: m_Name
+      value: FX_Explosion_02
+      objectReference: {fileID: 0}
     - target: {fileID: 6087607549756780345, guid: 8796334d699984f43b46b2f89d8a7e76,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -116,11 +121,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5262455841930416178, guid: 8796334d699984f43b46b2f89d8a7e76,
-        type: 3}
-      propertyPath: m_Name
-      value: FX_Explosion_02
-      objectReference: {fileID: 0}
     - target: {fileID: 1852007312042844511, guid: 8796334d699984f43b46b2f89d8a7e76,
         type: 3}
       propertyPath: m_LocalRotation.x
@@ -139,12 +139,12 @@ PrefabInstance:
     - target: {fileID: 1852007312042844511, guid: 8796334d699984f43b46b2f89d8a7e76,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1852007312042844511, guid: 8796334d699984f43b46b2f89d8a7e76,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.5
+      value: -0.75
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8796334d699984f43b46b2f89d8a7e76, type: 3}
