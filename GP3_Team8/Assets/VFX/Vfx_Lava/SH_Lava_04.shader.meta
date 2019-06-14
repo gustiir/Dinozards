@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f83f1a55eb0279d4e9bc919ccfc376cb
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _Rock_Normal: {fileID: 2800000, guid: b63a7142c55ee3345aec28dd20886ff8, type: 3}
+  - _Fire_01: {fileID: 2800000, guid: 297422662255f4a408461ee3fa6cd010, type: 3}
+  - _Stylized_rock_roughness_004: {fileID: 2800000, guid: 3a76012bd7bfbb042a0ff9d0222cf9b4,
+      type: 3}
+  - _Stylized_rock_AO_004: {fileID: 2800000, guid: 1c08b19c69cd3a54e90a0aac78b86e50,
+      type: 3}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
