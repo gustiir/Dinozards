@@ -38,7 +38,7 @@ public class PlayerMovement : MonoBehaviour
     #endregion Fields
 
     void Start() {
-
+        
         playerInput = GetComponent<PlayerInput>();
         rigidbody = GetComponent<Rigidbody>();
         dash = directionOfMovement.GetComponent<DashAbility>();
@@ -90,7 +90,7 @@ public class PlayerMovement : MonoBehaviour
         Vector3 movement = new Vector3(xInput, Time.deltaTime * Physics.gravity.y, yInput) * moveSpeed;
 
         rigidbody.MovePosition(transform.position + movement * Time.deltaTime);
-
+        
         // Set Idle / Walk Blend Tree Animation
         if (Mathf.Abs(xInput) > Mathf.Abs(yInput))
             animController.SetFloat("Speed", Mathf.Abs(xInput));
@@ -134,5 +134,15 @@ public class PlayerMovement : MonoBehaviour
 
             transform.rotation = Quaternion.Slerp(transform.rotation, toStick, rotationRate * Time.deltaTime);
         }
+    }
+
+    public void RightFootDown() {
+        
+        Debug.Log("Right Foot Down - PlayerMovement.cs Line 141");
+    }
+
+    public void LeftFootDown() {
+
+        Debug.Log("Left Foot Down - PlayerMovement.cs Line 146");
     }
 }
