@@ -25,6 +25,8 @@ public class CharacterPortrait : MonoBehaviour
     public GameObject join;
     public GameObject leave;
 
+    public Animator animator;
+
 
 
     private void Start()
@@ -93,6 +95,8 @@ public class CharacterPortrait : MonoBehaviour
             prefabPortraitImage.sprite = playerFourPortrait;
         }
 
+        animator.SetBool("isJoined", true);
+
     }
 
     public void PlayerDeactivate()
@@ -116,6 +120,8 @@ public class CharacterPortrait : MonoBehaviour
         {
             prefabPortraitImage.sprite = playerFourOffPortrait;
         }
+
+        animator.SetBool("isJoined", false);
 
     }
 
