@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: M_Lava_04
-  m_Shader: {fileID: 4800000, guid: e596005c97d4e624496a7026444412e9, type: 3}
+  m_Shader: {fileID: 4800000, guid: f83f1a55eb0279d4e9bc919ccfc376cb, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
@@ -52,7 +52,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Fire_02:
-        m_Texture: {fileID: 2800000, guid: 297422662255f4a408461ee3fa6cd010, type: 3}
+        m_Texture: {fileID: 2800000, guid: c6801bbc1a5835f46ace9205fb6ff1b1, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
@@ -80,7 +80,19 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Rock_Normal:
-        m_Texture: {fileID: 2800000, guid: fc2de7eb2f4650242a86f7f94bed88ca, type: 3}
+        m_Texture: {fileID: 2800000, guid: c6801bbc1a5835f46ace9205fb6ff1b1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Stylized_rock_AO_004:
+        m_Texture: {fileID: 2800000, guid: c6801bbc1a5835f46ace9205fb6ff1b1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Stylized_rock_roughness_004:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample0:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _WoodSpecular:
@@ -92,11 +104,12 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _Brightness: 1
+    - _Brightness: -1
     - _BumpScale: 1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
+    - _Emission: 0.8
     - _FireSpeed: 0.1
     - _GlossMapScale: 1
     - _Glossiness: 0.5
