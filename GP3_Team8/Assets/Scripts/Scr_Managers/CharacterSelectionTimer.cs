@@ -50,7 +50,7 @@ public class CharacterSelectionTimer : MonoBehaviour
         }
         else
         {
-            preMatchCounterText.text = "The match will start in " + currentMatchStartTimer.ToString("0");
+            preMatchCounterText.text = currentMatchStartTimer.ToString("0");
         }
             
 
