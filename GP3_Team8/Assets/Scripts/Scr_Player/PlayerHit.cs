@@ -4,6 +4,7 @@ using UnityEngine;
 using XInputDotNetPure;
 
 public class PlayerHit : MonoBehaviour {
+
     #region Fields
 
     public enum HitBy { FireBall, FireBallMerge, Dash, Reflect, Storm, Lava, Tick};
@@ -49,6 +50,9 @@ public class PlayerHit : MonoBehaviour {
     private float dashLightningTickIntervalls = .5f;
 
     public List<string> hitAudioNames;
+
+    public GameObject hitDustTrail;
+    GameObject smokeTrail;
 
     #endregion Fields
 
@@ -120,6 +124,14 @@ public class PlayerHit : MonoBehaviour {
         int listIndex = Random.Range(0, hitAudioNames.Count);
         AudioManager.instance.PlayWithRandomPitch(hitAudioNames[listIndex]);
 
+        if (multiplier > 0) {
+
+            smokeTrail = Instantiate(hitDustTrail, gameObject.transform.position, Quaternion.identity) as GameObject;
+
+            smokeTrail.transform.SetParent(gameObject.transform, true);
+        }
+            
+
         if (!isVibrating) {
 
             if (this.gameObject.activeInHierarchy) //To prevent it ffrom being called after players "die"
@@ -178,6 +190,8 @@ public class PlayerHit : MonoBehaviour {
         yield return new WaitForSeconds(delayBeforeReturningToNormalStateAfterHit);
 
         states.SetStateTo(PlayerStates.PossibleStates.IsNormal);
+
+        Destroy(smokeTrail);
 
         yield return null;
     }
