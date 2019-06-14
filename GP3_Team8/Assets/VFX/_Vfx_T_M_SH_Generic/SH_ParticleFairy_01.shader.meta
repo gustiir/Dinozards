@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: a042dd9da80999f42a4750d06de0094a
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _T_ParticleFairy_01: {fileID: 2800000, guid: 17d15d0aaf5d98542a4d54786d3be831,
+      type: 3}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

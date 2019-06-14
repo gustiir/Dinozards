@@ -1,0 +1,452 @@
+fileFormatVersion: 2
+guid: e4bda542237cb604298b39565bd98357
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Rigg:CharacterMesh:Crystal
+    100004: Rigg:CharacterMesh:Player
+    100006: Rigg:CharacterMesh:Potion
+    100008: Rigg:CharacterMesh:Scroll
+    100010: Rigg:CharacterMesh:Tome
+    100012: Rigg:HeadJoint
+    100014: Rigg:HipJoint
+    100016: Rigg:L_ElbowJoint
+    100018: Rigg:L_HandJoint_01
+    100020: Rigg:L_HandJoint_02
+    100022: Rigg:L_HandJoint_03
+    100024: Rigg:L_HeelJoint
+    100026: Rigg:L_KneeJoint
+    100028: Rigg:L_ScapulaJoint
+    100030: Rigg:L_ShoulderJoint
+    100032: Rigg:L_ThighJoint
+    100034: Rigg:L_ThumbJoint_01
+    100036: Rigg:L_ThumbJoint_02
+    100038: Rigg:L_ToeJoint
+    100040: Rigg:L_WristJoint
+    100042: Rigg:NeckJoint
+    100044: Rigg:PlayerItemJoint
+    100046: Rigg:R_ElbowJoint
+    100048: Rigg:R_HandJoint_01
+    100050: Rigg:R_HandJoint_02
+    100052: Rigg:R_HandJoint_03
+    100054: Rigg:R_HeelJoint
+    100056: Rigg:R_KneeJoint
+    100058: Rigg:R_ScapulaJoint
+    100060: Rigg:R_ShoulderJoint
+    100062: Rigg:R_ThighJoint
+    100064: Rigg:R_ThumbJoint_01
+    100066: Rigg:R_ThumbJoint_02
+    100068: Rigg:R_ToeJoint
+    100070: Rigg:R_WristJoint
+    100072: Rigg:RootJoint
+    100074: Rigg:SpineJoint_01
+    100076: Rigg:SpineJoint_02
+    100078: Rigg:SpineJoint_03
+    100080: Rigg:TailJoint_01
+    100082: Rigg:TailJoint_02
+    100084: Rigg:TailJoint_03
+    100086: Rigg:TailJoint_04
+    100088: Rigg:TailJoint_05
+    400000: //RootNode
+    400002: Rigg:CharacterMesh:Crystal
+    400004: Rigg:CharacterMesh:Player
+    400006: Rigg:CharacterMesh:Potion
+    400008: Rigg:CharacterMesh:Scroll
+    400010: Rigg:CharacterMesh:Tome
+    400012: Rigg:HeadJoint
+    400014: Rigg:HipJoint
+    400016: Rigg:L_ElbowJoint
+    400018: Rigg:L_HandJoint_01
+    400020: Rigg:L_HandJoint_02
+    400022: Rigg:L_HandJoint_03
+    400024: Rigg:L_HeelJoint
+    400026: Rigg:L_KneeJoint
+    400028: Rigg:L_ScapulaJoint
+    400030: Rigg:L_ShoulderJoint
+    400032: Rigg:L_ThighJoint
+    400034: Rigg:L_ThumbJoint_01
+    400036: Rigg:L_ThumbJoint_02
+    400038: Rigg:L_ToeJoint
+    400040: Rigg:L_WristJoint
+    400042: Rigg:NeckJoint
+    400044: Rigg:PlayerItemJoint
+    400046: Rigg:R_ElbowJoint
+    400048: Rigg:R_HandJoint_01
+    400050: Rigg:R_HandJoint_02
+    400052: Rigg:R_HandJoint_03
+    400054: Rigg:R_HeelJoint
+    400056: Rigg:R_KneeJoint
+    400058: Rigg:R_ScapulaJoint
+    400060: Rigg:R_ShoulderJoint
+    400062: Rigg:R_ThighJoint
+    400064: Rigg:R_ThumbJoint_01
+    400066: Rigg:R_ThumbJoint_02
+    400068: Rigg:R_ToeJoint
+    400070: Rigg:R_WristJoint
+    400072: Rigg:RootJoint
+    400074: Rigg:SpineJoint_01
+    400076: Rigg:SpineJoint_02
+    400078: Rigg:SpineJoint_03
+    400080: Rigg:TailJoint_01
+    400082: Rigg:TailJoint_02
+    400084: Rigg:TailJoint_03
+    400086: Rigg:TailJoint_04
+    400088: Rigg:TailJoint_05
+    2100000: lambert1
+    4300000: Rigg:CharacterMesh:Player
+    4300002: Rigg:CharacterMesh:Potion
+    4300004: Rigg:CharacterMesh:Crystal
+    4300006: Rigg:CharacterMesh:Scroll
+    4300008: Rigg:CharacterMesh:Tome
+    7400000: PlayerIdle_anim
+    9500000: //RootNode
+    13700000: Rigg:CharacterMesh:Crystal
+    13700002: Rigg:CharacterMesh:Player
+    13700004: Rigg:CharacterMesh:Potion
+    13700006: Rigg:CharacterMesh:Scroll
+    13700008: Rigg:CharacterMesh:Tome
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'Take 001' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar to
+      improve retargeting quality.\n\t'Rigg:HipJoint' has translation animation that
+      will be discarded.\n\t'Rigg:HipJoint' is inbetween humanoid transforms and has
+      rotation animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: PlayerIdle_anim
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 89
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton:
+    - name: PlayerIdle_anim(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rigg:CharacterMesh:Player
+      parentName: PlayerIdle_anim(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rigg:CharacterMesh:Potion
+      parentName: Rigg:CharacterMesh:Player
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rigg:CharacterMesh:Crystal
+      parentName: Rigg:CharacterMesh:Player
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rigg:CharacterMesh:Scroll
+      parentName: Rigg:CharacterMesh:Player
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rigg:CharacterMesh:Tome
+      parentName: Rigg:CharacterMesh:Player
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rigg:RootJoint
+      parentName: PlayerIdle_anim(Clone)
+      position: {x: 0.003817562, y: 0, z: 0.070612736}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rigg:HipJoint
+      parentName: Rigg:RootJoint
+      position: {x: -0.003817564, y: 0.34745958, z: -0.099582076}
+      rotation: {x: 0.02869867, y: 0.23706079, z: 0.11670612, w: 0.9640323}
+      scale: {x: 1, y: 1, z: 0.9999995}
+    - name: Rigg:SpineJoint_01
+      parentName: Rigg:HipJoint
+      position: {x: 0.008175009, y: 0.0306314, z: 0.007029123}
+      rotation: {x: -0.2137881, y: 0.47160488, z: -0.52894485, w: 0.6723845}
+      scale: {x: 1.0000007, y: 1.0000004, z: 1.0000008}
+    - name: Rigg:SpineJoint_02
+      parentName: Rigg:SpineJoint_01
+      position: {x: -0.07746197, y: 6.880005e-17, z: -4.386088e-17}
+      rotation: {x: 0.9654707, y: -0.26051173, z: -0, w: -0.000000059604638}
+      scale: {x: 1.0000038, y: 1.0000031, z: 1.0000005}
+    - name: Rigg:SpineJoint_03
+      parentName: Rigg:SpineJoint_02
+      position: {x: -0.10680781, y: -1.0160506e-16, z: 7.893334e-18}
+      rotation: {x: 0.00000008168914, y: 0.00000006850817, z: 0.21672483, w: 0.97623277}
+      scale: {x: 1.0000006, y: 0.99999857, z: 1.0000027}
+    - name: Rigg:NeckJoint
+      parentName: Rigg:SpineJoint_03
+      position: {x: -0.11517698, y: 9.59041e-17, z: 2.1324301e-17}
+      rotation: {x: -0.8824038, y: 0.47049302, z: 0.000000011262864, w: -0.0000000382972}
+      scale: {x: 1.0000005, y: 1.0000046, z: 1.0000024}
+    - name: Rigg:HeadJoint
+      parentName: Rigg:NeckJoint
+      position: {x: -0.2919281, y: 8.414293e-17, z: -4.130615e-18}
+      rotation: {x: 0.44329044, y: -0.5509025, z: 0.44329047, w: 0.55090255}
+      scale: {x: 1, y: 0.99999994, z: 1.0000001}
+    - name: Rigg:R_ScapulaJoint
+      parentName: Rigg:SpineJoint_03
+      position: {x: -0.03991989, y: -0.05049895, z: -0.036147594}
+      rotation: {x: -0.39990854, y: 0.6676982, z: -0.17901126, w: -0.6018366}
+      scale: {x: 1.0000005, y: 0.99999887, z: 1.0000026}
+    - name: Rigg:R_ShoulderJoint
+      parentName: Rigg:R_ScapulaJoint
+      position: {x: -0.08580362, y: 1.346503e-16, z: 2.4206888e-17}
+      rotation: {x: -0.00005045532, y: 0.113538474, z: 0.14821395, w: 0.9824162}
+      scale: {x: 0.9999996, y: 0.9999998, z: 1.0000002}
+    - name: Rigg:R_ElbowJoint
+      parentName: Rigg:R_ShoulderJoint
+      position: {x: -0.13473955, y: 1.6187635e-17, z: -4.487728e-17}
+      rotation: {x: -0.17864147, y: -0.028558698, z: -0.030848421, w: 0.9830157}
+      scale: {x: 1.000001, y: 1.0000004, z: 1.0000005}
+    - name: Rigg:R_WristJoint
+      parentName: Rigg:R_ElbowJoint
+      position: {x: -0.11460599, y: -5.300299e-17, z: 4.031797e-17}
+      rotation: {x: -0.28101274, y: -0.4952938, z: 0.08616673, w: 0.8174908}
+      scale: {x: 1.0000006, y: 1.0000005, z: 1.000001}
+    - name: Rigg:R_ThumbJoint_01
+      parentName: Rigg:R_WristJoint
+      position: {x: -0.016831405, y: -2.6901407e-18, z: 6.538058e-17}
+      rotation: {x: 0.15305184, y: 0.22951178, z: -0.19502378, w: 0.9412042}
+      scale: {x: 1.0000002, y: 1, z: 0.9999999}
+    - name: Rigg:R_ThumbJoint_02
+      parentName: Rigg:R_ThumbJoint_01
+      position: {x: -0.033925217, y: 6.7287814e-17, z: 1.0282596e-17}
+      rotation: {x: -0.4089086, y: -0.716113, z: -0.28044528, w: 0.49124998}
+      scale: {x: 1, y: 1.0000002, z: 0.9999999}
+    - name: Rigg:R_HandJoint_01
+      parentName: Rigg:R_WristJoint
+      position: {x: -0.0061518312, y: -0.0052444614, z: 0.0160679}
+      rotation: {x: 0.31777003, y: 0.57577956, z: -0.10654015, w: 0.74575424}
+      scale: {x: 1.0000004, y: 1.0000005, z: 0.9999999}
+    - name: Rigg:R_HandJoint_02
+      parentName: Rigg:R_HandJoint_01
+      position: {x: -0.027415609, y: 1.4819604e-16, z: 1.521872e-18}
+      rotation: {x: -0.13344842, y: -0.024008239, z: 0.015578356, w: 0.9906424}
+      scale: {x: 1.0000008, y: 1.0000001, z: 1.0000017}
+    - name: Rigg:R_HandJoint_03
+      parentName: Rigg:R_HandJoint_02
+      position: {x: -0.03273423, y: 2.9260634e-17, z: -1.8799506e-17}
+      rotation: {x: -0.28505892, y: -0.847695, z: -0.1425738, w: 0.4240607}
+      scale: {x: 0.99999946, y: 1.0000001, z: 1.0000002}
+    - name: Rigg:L_ScapulaJoint
+      parentName: Rigg:SpineJoint_03
+      position: {x: -0.039920047, y: -0.050499424, z: 0.0361476}
+      rotation: {x: -0.39990854, y: 0.66769785, z: 0.17901176, w: 0.6018368}
+      scale: {x: 0.9999988, y: 0.9999975, z: 1.0000024}
+    - name: Rigg:L_ShoulderJoint
+      parentName: Rigg:L_ScapulaJoint
+      position: {x: -0.08580396, y: 8.136418e-17, z: 5.4971323e-17}
+      rotation: {x: 0.00004991889, y: -0.11353809, z: 0.14821336, w: 0.9824164}
+      scale: {x: 1, y: 0.9999998, z: 1.0000004}
+    - name: Rigg:L_ElbowJoint
+      parentName: Rigg:L_ShoulderJoint
+      position: {x: -0.13473943, y: 4.674713e-19, z: -1.8699538e-17}
+      rotation: {x: 0.17864253, y: 0.02855803, z: -0.03084838, w: 0.98301566}
+      scale: {x: 1.0000008, y: 1.0000019, z: 0.9999981}
+    - name: Rigg:L_WristJoint
+      parentName: Rigg:L_ElbowJoint
+      position: {x: -0.114606164, y: 3.1424838e-18, z: 2.3301392e-17}
+      rotation: {x: 0.28105754, y: 0.4953258, z: 0.08620143, w: 0.8174523}
+      scale: {x: 0.99999976, y: 1.0000001, z: 0.99999964}
+    - name: Rigg:L_ThumbJoint_01
+      parentName: Rigg:L_WristJoint
+      position: {x: -0.016831717, y: -3.627822e-18, z: 3.7797264e-17}
+      rotation: {x: -0.15304399, y: -0.22955841, z: -0.19506185, w: 0.94118613}
+      scale: {x: 1.0000004, y: 1.0000005, z: 1.0000002}
+    - name: Rigg:L_ThumbJoint_02
+      parentName: Rigg:L_ThumbJoint_01
+      position: {x: -0.03392525, y: 1.3157184e-16, z: 8.728759e-18}
+      rotation: {x: 0.71608615, y: -0.40886396, z: 0.49128848, w: 0.2805113}
+      scale: {x: 1, y: 1.0000007, z: 1.000001}
+    - name: Rigg:L_HandJoint_01
+      parentName: Rigg:L_WristJoint
+      position: {x: -0.006151942, y: -0.005247955, z: -0.016067244}
+      rotation: {x: -0.31784883, y: -0.5758112, z: -0.106532805, w: 0.7456972}
+      scale: {x: 1, y: 0.99999976, z: 1}
+    - name: Rigg:L_HandJoint_02
+      parentName: Rigg:L_HandJoint_01
+      position: {x: -0.027415225, y: 1.115678e-16, z: 2.7917885e-17}
+      rotation: {x: 0.1335045, y: 0.024009045, z: 0.015578939, w: 0.9906349}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000001}
+    - name: Rigg:L_HandJoint_03
+      parentName: Rigg:L_HandJoint_02
+      position: {x: -0.032733914, y: -1.2337511e-16, z: 3.3522553e-17}
+      rotation: {x: 0.84768903, y: -0.28504565, z: 0.4240727, w: 0.14259954}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: Rigg:PlayerItemJoint
+      parentName: Rigg:SpineJoint_02
+      position: {x: -0.07557995, y: -0.19430539, z: 0.008984503}
+      rotation: {x: -0.48773444, y: 0.5119719, z: 0.48773438, w: 0.51197183}
+      scale: {x: 1.0000004, y: 0.9999997, z: 0.9999996}
+    - name: Rigg:TailJoint_01
+      parentName: Rigg:SpineJoint_01
+      position: {x: 0.104367785, y: -0.032640073, z: -3.3218628e-16}
+      rotation: {x: 0.13947886, y: -0.99022514, z: -0.000000074505806, w: -0.000000029802322}
+      scale: {x: 1.0000081, y: 1.0000014, z: 1.0000052}
+    - name: Rigg:TailJoint_02
+      parentName: Rigg:TailJoint_01
+      position: {x: -0.09018753, y: 4.524171e-18, z: -1.0218339e-17}
+      rotation: {x: 0.00000003957958, y: 0.000000056972368, z: -0.30174503, w: 0.95338875}
+      scale: {x: 1.0000054, y: 1.0000007, z: 1.0000051}
+    - name: Rigg:TailJoint_03
+      parentName: Rigg:TailJoint_02
+      position: {x: -0.10633382, y: 4.427035e-17, z: -2.3219851e-17}
+      rotation: {x: -0.0000000024095, y: -0.000000064474825, z: -0.16709094, w: 0.9859415}
+      scale: {x: 1.0000036, y: 0.9999962, z: 0.9999993}
+    - name: Rigg:TailJoint_04
+      parentName: Rigg:TailJoint_03
+      position: {x: -0.0815687, y: -1.3583918e-17, z: -1.4870145e-17}
+      rotation: {x: 0.000000040362373, y: -0.00000004019274, z: -0.08276463, w: 0.9965692}
+      scale: {x: 1.000006, y: 0.9999977, z: 1.0000033}
+    - name: Rigg:TailJoint_05
+      parentName: Rigg:TailJoint_04
+      position: {x: -0.046816524, y: 1.5164729e-17, z: -7.311253e-18}
+      rotation: {x: -0.10644437, y: 0.6990491, z: 0.1064444, w: 0.699049}
+      scale: {x: 0.9999992, y: 1.000003, z: 0.99999654}
+    - name: Rigg:L_ThighJoint
+      parentName: Rigg:HipJoint
+      position: {x: 0.030904407, y: -0.023399059, z: 0.05133122}
+      rotation: {x: 0.44200358, y: 0.42907122, z: 0.4060308, w: 0.67503315}
+      scale: {x: 1.0000004, y: 1.0000005, z: 1.0000004}
+    - name: Rigg:L_KneeJoint
+      parentName: Rigg:L_ThighJoint
+      position: {x: -0.15043509, y: 2.763501e-17, z: -5.0599776e-17}
+      rotation: {x: -0.920873, y: -0.35063595, z: 0.012511758, w: -0.16997328}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000001}
+    - name: Rigg:L_HeelJoint
+      parentName: Rigg:L_KneeJoint
+      position: {x: -0.19204408, y: -7.816948e-17, z: -1.0677117e-17}
+      rotation: {x: 0.52775925, y: 0.8258124, z: 0.11234534, w: -0.16395915}
+      scale: {x: 0.99999994, y: 0.9999992, z: 1.0000005}
+    - name: Rigg:L_ToeJoint
+      parentName: Rigg:L_HeelJoint
+      position: {x: -0.08054206, y: -8.6700506e-17, z: -2.2475271e-17}
+      rotation: {x: 0.5951467, y: -0.017529279, z: 0.80307764, w: 0.023653597}
+      scale: {x: 1.0000002, y: 1.0000017, z: 1.0000011}
+    - name: Rigg:R_ThighJoint
+      parentName: Rigg:HipJoint
+      position: {x: -0.064323425, y: 1.9192339e-17, z: 4.9899578e-17}
+      rotation: {x: 0.29546565, y: 0.30637243, z: 0.47449318, w: 0.7705143}
+      scale: {x: 1.0000001, y: 1.000001, z: 1.0000005}
+    - name: Rigg:R_KneeJoint
+      parentName: Rigg:R_ThighJoint
+      position: {x: -0.15043418, y: 6.56715e-17, z: -4.95373e-17}
+      rotation: {x: -0.92087245, y: -0.35063723, z: -0.012511758, w: 0.16997322}
+      scale: {x: 1.0000005, y: 1.0000005, z: 1.0000007}
+    - name: Rigg:R_HeelJoint
+      parentName: Rigg:R_KneeJoint
+      position: {x: -0.19204469, y: -6.0381247e-17, z: 5.1499243e-17}
+      rotation: {x: 0.52682364, y: 0.82281244, z: -0.120326415, w: 0.17594938}
+      scale: {x: 1.0000002, y: 0.9999997, z: 0.9999999}
+    - name: Rigg:R_ToeJoint
+      parentName: Rigg:R_HeelJoint
+      position: {x: -0.08054249, y: 1.6645815e-17, z: 1.3653934e-17}
+      rotation: {x: -0.017529072, y: -0.5951472, z: -0.0236533, w: 0.8030773}
+      scale: {x: 0.9999998, y: 1.0000002, z: 1.0000001}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

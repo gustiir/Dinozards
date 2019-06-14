@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 074c70d10578b2f4f8f47eff08bcd82b
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _T_GroundExplosion: {fileID: 2800000, guid: 4dad7596702671e4a9f95eb27bf8ab0f,
+      type: 3}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

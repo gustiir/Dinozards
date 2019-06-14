@@ -1,0 +1,538 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &96471018925716288
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 954364634631780997}
+  - component: {fileID: 2112476273878323427}
+  m_Layer: 0
+  m_Name: OtherInput_p4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &954364634631780997
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 96471018925716288}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8482654720946504625}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2112476273878323427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 96471018925716288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1777c02c5907b848b6bc06d22cc2d62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameManager: {fileID: 6712583288956749544}
+  playerIndex: 3
+--- !u!1 &687016384366081908
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8482654720946504625}
+  - component: {fileID: 6712583288956749544}
+  - component: {fileID: 3546582588995735155}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8482654720946504625
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 687016384366081908}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 64.14522, y: -34.888584, z: -76.78647}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 943516052782946132}
+  - {fileID: 5809673856384337743}
+  - {fileID: 549977092358469333}
+  - {fileID: 954364634631780997}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6712583288956749544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 687016384366081908}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2cf0c8cc0b3dd1f469264269b0acd3ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameState: 0
+  p1Active: 1
+  p2Active: 1
+  p3Active: 1
+  p4Active: 1
+  characterSelectionCountdownTimer: 5
+  roundCountdownTimer: 3
+  maxNumberOfRounds: 1
+  playerJoinedAudioNames:
+  - PlayerJoined_02
+  - PlayerJoined_03
+  - PlayerJoined_04
+  - PlayerJoined_05
+  - PlayerJoined_06
+  - PlayerJoined_07
+--- !u!114 &3546582588995735155
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 687016384366081908}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20884f991a00b9e4cac84b81a37d541f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  singleSounds:
+  - name: Cast_01
+    clip: {fileID: 8300000, guid: 8f37a39af25179b49b34893738d68f76, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    isSoundTrack: 0
+    source: {fileID: 0}
+  - name: Cast_02
+    clip: {fileID: 8300000, guid: 201b763762e0fd24d92b49046d0827b3, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    isSoundTrack: 0
+    source: {fileID: 0}
+  - name: Cast_03
+    clip: {fileID: 8300000, guid: 7e42830673df18b4a83e42c5e70028b7, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    isSoundTrack: 0
+    source: {fileID: 0}
+  - name: Cast_04
+    clip: {fileID: 8300000, guid: 5596ab07959b0b240964c33fe872ff35, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    isSoundTrack: 0
+    source: {fileID: 0}
+  - name: FireballHit_01
+    clip: {fileID: 8300000, guid: 30509df6c7b1b3747bd81f347ef02f7e, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    isSoundTrack: 0
+    source: {fileID: 0}
+  - name: FireballHit_02
+    clip: {fileID: 8300000, guid: e07fb1e0395889642a6cc3b15fcc73d2, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    isSoundTrack: 0
+    source: {fileID: 0}
+  - name: FireballHit_03
+    clip: {fileID: 8300000, guid: 49a0c32c530fa3145987e8e15540dd6c, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    isSoundTrack: 0
+    source: {fileID: 0}
+  - name: FireballHit_04
+    clip: {fileID: 8300000, guid: 8ff7bf06a5fbb58478b13f63505e0ba3, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    isSoundTrack: 0
+    source: {fileID: 0}
+  - name: Dash_01
+    clip: {fileID: 8300000, guid: 079414c7dabc70b4285752a7ae84fe5f, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    isSoundTrack: 0
+    source: {fileID: 0}
+  - name: Reflect_01
+    clip: {fileID: 8300000, guid: c3df266aec5978448ada937b86b44a57, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    isSoundTrack: 0
+    source: {fileID: 0}
+  - name: GameOver_01
+    clip: {fileID: 8300000, guid: 8870effa062097e4e867697197083d5e, type: 3}
+    volume: 0.35
+    pitch: 1
+    loop: 0
+    isSoundTrack: 0
+    source: {fileID: 0}
+  - name: Warning_01
+    clip: {fileID: 8300000, guid: c2da7bb8e359edc47b8eb60e6e355fd6, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    isSoundTrack: 0
+    source: {fileID: 0}
+  - name: Hit_01
+    clip: {fileID: 8300000, guid: 656226e54005eb245b0305ba13382b40, type: 3}
+    volume: 0.25
+    pitch: 1
+    loop: 0
+    isSoundTrack: 0
+    source: {fileID: 0}
+  - name: Hit_02
+    clip: {fileID: 8300000, guid: a5c325eb49890cb4fb507484b471d0bd, type: 3}
+    volume: 0.25
+    pitch: 1
+    loop: 0
+    isSoundTrack: 0
+    source: {fileID: 0}
+  - name: Hit_03
+    clip: {fileID: 8300000, guid: 09d1ecd17a9bdaa4bbd35daec3d3b211, type: 3}
+    volume: 0.25
+    pitch: 1
+    loop: 0
+    isSoundTrack: 0
+    source: {fileID: 0}
+  - name: Hit_04
+    clip: {fileID: 8300000, guid: 823eef64beb4dab49950acc1a8ed308e, type: 3}
+    volume: 0.25
+    pitch: 1
+    loop: 0
+    isSoundTrack: 0
+    source: {fileID: 0}
+  - name: Hit_05
+    clip: {fileID: 8300000, guid: 220ec7f1476a28740b0d645fcb7112a0, type: 3}
+    volume: 0.25
+    pitch: 1
+    loop: 0
+    isSoundTrack: 0
+    source: {fileID: 0}
+  - name: Hit_06
+    clip: {fileID: 8300000, guid: f8465946282c48044b341dd85edab1ec, type: 3}
+    volume: 0.25
+    pitch: 1
+    loop: 0
+    isSoundTrack: 0
+    source: {fileID: 0}
+  - name: Hit_07
+    clip: {fileID: 8300000, guid: c5a1b1aeeb33ac0488926ce7fbd2894d, type: 3}
+    volume: 0.25
+    pitch: 1
+    loop: 0
+    isSoundTrack: 0
+    source: {fileID: 0}
+  - name: GamePlay_01
+    clip: {fileID: 8300000, guid: 57fe0f81696fc5b4299770a7dc5aa199, type: 3}
+    volume: 0.15
+    pitch: 1
+    loop: 0
+    isSoundTrack: 0
+    source: {fileID: 0}
+  - name: Countdown_01
+    clip: {fileID: 8300000, guid: 3e70d89c129fe08428bab47009b11139, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    isSoundTrack: 0
+    source: {fileID: 0}
+  - name: PressStart_01
+    clip: {fileID: 8300000, guid: 86719394f40189c4285e19e62c9e68d3, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    isSoundTrack: 0
+    source: {fileID: 0}
+  - name: PlayerJoined_01
+    clip: {fileID: 8300000, guid: 97e1584f7b92a5c46a6ab46d41766453, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    isSoundTrack: 0
+    source: {fileID: 0}
+  - name: PlayerJoined_02
+    clip: {fileID: 8300000, guid: 736959c26d0807b47a39608b1f795d68, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    isSoundTrack: 0
+    source: {fileID: 0}
+  - name: PlayerJoined_03
+    clip: {fileID: 8300000, guid: 14ad96418612a27438b3cbf47438d9a0, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    isSoundTrack: 0
+    source: {fileID: 0}
+  - name: PlayerJoined_04
+    clip: {fileID: 8300000, guid: c4fba3b62515f4f40bfbc8dcf19db199, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    isSoundTrack: 0
+    source: {fileID: 0}
+  - name: PlayerJoined_05
+    clip: {fileID: 8300000, guid: 51a9da7cab5806a46acf20aae839e796, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    isSoundTrack: 0
+    source: {fileID: 0}
+  - name: PlayerJoined_06
+    clip: {fileID: 8300000, guid: 6ca989ce813872044ab4bd08004bb533, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    isSoundTrack: 0
+    source: {fileID: 0}
+  - name: PlayerJoined_07
+    clip: {fileID: 8300000, guid: b1960380b2131da458c8b1ff5cf1ee87, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    isSoundTrack: 0
+    source: {fileID: 0}
+  - name: PressStart_01
+    clip: {fileID: 8300000, guid: 86719394f40189c4285e19e62c9e68d3, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    isSoundTrack: 0
+    source: {fileID: 0}
+  - name: GameStart_01
+    clip: {fileID: 8300000, guid: c66b7a9808ef30e49a41e1eafa017874, type: 3}
+    volume: 0.65
+    pitch: 1
+    loop: 0
+    isSoundTrack: 0
+    source: {fileID: 0}
+  - name: CountdownOver_01
+    clip: {fileID: 8300000, guid: d9f62715adbb8c446a57917faf1653de, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    isSoundTrack: 0
+    source: {fileID: 0}
+  - name: Thunderstorm_01
+    clip: {fileID: 8300000, guid: 821fedb9520c7e449846007ab4c0bff5, type: 3}
+    volume: 0.46
+    pitch: 1
+    loop: 0
+    isSoundTrack: 0
+    source: {fileID: 0}
+  - name: Thunderstorm_02
+    clip: {fileID: 8300000, guid: 13b2e11d6a0bb754abcdb92d8741b7db, type: 3}
+    volume: 0.64
+    pitch: 1
+    loop: 0
+    isSoundTrack: 0
+    source: {fileID: 0}
+  - name: ThunderstormAmbience_01
+    clip: {fileID: 8300000, guid: fe4ca9ddd41734a47887d425390210fe, type: 3}
+    volume: 0.25
+    pitch: 1
+    loop: 1
+    isSoundTrack: 0
+    source: {fileID: 0}
+  - name: Rain_01
+    clip: {fileID: 8300000, guid: addf8e4748eec0848912c5c29dbb6dd1, type: 3}
+    volume: 0.35
+    pitch: 1
+    loop: 1
+    isSoundTrack: 0
+    source: {fileID: 0}
+  - name: LavaRaising_01
+    clip: {fileID: 8300000, guid: 90e62b7196e479444bb0fd86bf296ed0, type: 3}
+    volume: 0.35
+    pitch: 1
+    loop: 0
+    isSoundTrack: 0
+    source: {fileID: 0}
+  - name: FireballReflect_01
+    clip: {fileID: 8300000, guid: f39b7d39b5f998e44a8523d850ef6614, type: 3}
+    volume: 0.35
+    pitch: 3
+    loop: 0
+    isSoundTrack: 0
+    source: {fileID: 0}
+  - name: FireballHitWall_01
+    clip: {fileID: 8300000, guid: e07fb1e0395889642a6cc3b15fcc73d2, type: 3}
+    volume: 0.08
+    pitch: 3
+    loop: 0
+    isSoundTrack: 0
+    source: {fileID: 0}
+  - name: FireballBigExplosion_01
+    clip: {fileID: 8300000, guid: db17157233a328e4887bf0418473febf, type: 3}
+    volume: 0.35
+    pitch: 1
+    loop: 0
+    isSoundTrack: 0
+    source: {fileID: 0}
+--- !u!1 &720545982702075205
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 943516052782946132}
+  - component: {fileID: 2895446982371082597}
+  m_Layer: 0
+  m_Name: OtherInput_p1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &943516052782946132
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 720545982702075205}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8482654720946504625}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2895446982371082597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 720545982702075205}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1777c02c5907b848b6bc06d22cc2d62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameManager: {fileID: 6712583288956749544}
+  playerIndex: 0
+--- !u!1 &2940324614346594305
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 549977092358469333}
+  - component: {fileID: 3583274346723256430}
+  m_Layer: 0
+  m_Name: OtherInput_p3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &549977092358469333
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2940324614346594305}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8482654720946504625}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3583274346723256430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2940324614346594305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1777c02c5907b848b6bc06d22cc2d62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameManager: {fileID: 6712583288956749544}
+  playerIndex: 2
+--- !u!1 &6860986882925168829
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5809673856384337743}
+  - component: {fileID: 72227459875135872}
+  m_Layer: 0
+  m_Name: OtherInput_p2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5809673856384337743
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6860986882925168829}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8482654720946504625}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &72227459875135872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6860986882925168829}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1777c02c5907b848b6bc06d22cc2d62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameManager: {fileID: 6712583288956749544}
+  playerIndex: 1

@@ -1,0 +1,223 @@
+fileFormatVersion: 2
+guid: e5d8a3fc5a1580248a87a5b04a4d9143
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Rigg:CharacterMesh:Crystal
+    100004: Rigg:CharacterMesh:Player
+    100006: Rigg:CharacterMesh:Potion
+    100008: Rigg:CharacterMesh:Scroll
+    100010: Rigg:CharacterMesh:Tome
+    100012: Rigg:HeadJoint
+    100014: Rigg:HipJoint
+    100016: Rigg:L_ElbowJoint
+    100018: Rigg:L_HandJoint_01
+    100020: Rigg:L_HandJoint_02
+    100022: Rigg:L_HandJoint_03
+    100024: Rigg:L_HeelJoint
+    100026: Rigg:L_KneeJoint
+    100028: Rigg:L_ScapulaJoint
+    100030: Rigg:L_ShoulderJoint
+    100032: Rigg:L_ThighJoint
+    100034: Rigg:L_ThumbJoint_01
+    100036: Rigg:L_ThumbJoint_02
+    100038: Rigg:L_ToeJoint
+    100040: Rigg:L_WristJoint
+    100042: Rigg:NeckJoint
+    100044: Rigg:PlayerItemJoint
+    100046: Rigg:R_ElbowJoint
+    100048: Rigg:R_HandJoint_01
+    100050: Rigg:R_HandJoint_02
+    100052: Rigg:R_HandJoint_03
+    100054: Rigg:R_HeelJoint
+    100056: Rigg:R_KneeJoint
+    100058: Rigg:R_ScapulaJoint
+    100060: Rigg:R_ShoulderJoint
+    100062: Rigg:R_ThighJoint
+    100064: Rigg:R_ThumbJoint_01
+    100066: Rigg:R_ThumbJoint_02
+    100068: Rigg:R_ToeJoint
+    100070: Rigg:R_WristJoint
+    100072: Rigg:RootJoint
+    100074: Rigg:SpineJoint_01
+    100076: Rigg:SpineJoint_02
+    100078: Rigg:SpineJoint_03
+    100080: Rigg:TailJoint_01
+    100082: Rigg:TailJoint_02
+    100084: Rigg:TailJoint_03
+    100086: Rigg:TailJoint_04
+    100088: Rigg:TailJoint_05
+    400000: //RootNode
+    400002: Rigg:CharacterMesh:Crystal
+    400004: Rigg:CharacterMesh:Player
+    400006: Rigg:CharacterMesh:Potion
+    400008: Rigg:CharacterMesh:Scroll
+    400010: Rigg:CharacterMesh:Tome
+    400012: Rigg:HeadJoint
+    400014: Rigg:HipJoint
+    400016: Rigg:L_ElbowJoint
+    400018: Rigg:L_HandJoint_01
+    400020: Rigg:L_HandJoint_02
+    400022: Rigg:L_HandJoint_03
+    400024: Rigg:L_HeelJoint
+    400026: Rigg:L_KneeJoint
+    400028: Rigg:L_ScapulaJoint
+    400030: Rigg:L_ShoulderJoint
+    400032: Rigg:L_ThighJoint
+    400034: Rigg:L_ThumbJoint_01
+    400036: Rigg:L_ThumbJoint_02
+    400038: Rigg:L_ToeJoint
+    400040: Rigg:L_WristJoint
+    400042: Rigg:NeckJoint
+    400044: Rigg:PlayerItemJoint
+    400046: Rigg:R_ElbowJoint
+    400048: Rigg:R_HandJoint_01
+    400050: Rigg:R_HandJoint_02
+    400052: Rigg:R_HandJoint_03
+    400054: Rigg:R_HeelJoint
+    400056: Rigg:R_KneeJoint
+    400058: Rigg:R_ScapulaJoint
+    400060: Rigg:R_ShoulderJoint
+    400062: Rigg:R_ThighJoint
+    400064: Rigg:R_ThumbJoint_01
+    400066: Rigg:R_ThumbJoint_02
+    400068: Rigg:R_ToeJoint
+    400070: Rigg:R_WristJoint
+    400072: Rigg:RootJoint
+    400074: Rigg:SpineJoint_01
+    400076: Rigg:SpineJoint_02
+    400078: Rigg:SpineJoint_03
+    400080: Rigg:TailJoint_01
+    400082: Rigg:TailJoint_02
+    400084: Rigg:TailJoint_03
+    400086: Rigg:TailJoint_04
+    400088: Rigg:TailJoint_05
+    2100000: lambert1
+    4300000: Rigg:CharacterMesh:Player
+    4300002: Rigg:CharacterMesh:Potion
+    4300004: Rigg:CharacterMesh:Crystal
+    4300006: Rigg:CharacterMesh:Scroll
+    4300008: Rigg:CharacterMesh:Tome
+    7400000: PlayerAttackAnim
+    9500000: //RootNode
+    13700000: Rigg:CharacterMesh:Crystal
+    13700002: Rigg:CharacterMesh:Player
+    13700004: Rigg:CharacterMesh:Potion
+    13700006: Rigg:CharacterMesh:Scroll
+    13700008: Rigg:CharacterMesh:Tome
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: PlayerAttackAnim
+      takeName: Take 001
+      firstFrame: 5
+      lastFrame: 10
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 1
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: e4bda542237cb604298b39565bd98357,
+    type: 3}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

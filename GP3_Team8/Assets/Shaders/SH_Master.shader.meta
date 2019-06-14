@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2d66c553fb14677429fb160564dc2f6c
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _DinoStatue01_Texture_N: {fileID: 2800000, guid: c36223ca210dd0846b6db9f37de5c142,
+      type: 3}
+  - _DinoStatue01_Texture_AT: {fileID: 2800000, guid: 81d361aa0da1a0f4b904e741af33e917,
+      type: 3}
+  - _DinoStatue01_Texture_R: {fileID: 2800000, guid: 7525deb5729d84a47844724a9742fdfe,
+      type: 3}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

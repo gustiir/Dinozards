@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 0f6e8d1263e5bc74a84f4cf054d058ef
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _T_DashMaterial_01: {fileID: 2800000, guid: e175109f041a07040b4e8388808f9a63,
+      type: 3}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
