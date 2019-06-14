@@ -44,6 +44,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   drawDebugDashTargetAndHitRadius: 1
+  useJoystickDashCancel: 0
   manaCost: 1
   dashDamage: 8
   dashMinLength: 1.5
@@ -751,9 +752,7 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.4
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 3300000, guid: 0d7fb732b7a641046a31d2cd7fe5eaf1, type: 3}
-    - {fileID: 2300000, guid: 0d7fb732b7a641046a31d2cd7fe5eaf1, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d7fb732b7a641046a31d2cd7fe5eaf1, type: 3}
 --- !u!4 &2006763947 stripped
 Transform:
